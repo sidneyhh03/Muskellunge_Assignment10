@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f8e05e6f-2c33-4c24-9a1b-c0fe6c890b4a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Muskellunge_Assignment10.py</StartupFile>
+    <StartupFile>mainPackage\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,15 +21,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="catAPIClientPackage\cat_api_client.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="catAPIClientPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\main.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Muskellunge_Assignment10.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="catAPIClientPackage\" />
     <Folder Include="mainPackage\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
