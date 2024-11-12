@@ -1,3 +1,7 @@
+# Brief Description of what this module does:   Gathers info from the API and prints it to the console. 
+# Citations:
+# Anything else that's relevant:
+
 # cat_api_client.py
 import requests
 import csv

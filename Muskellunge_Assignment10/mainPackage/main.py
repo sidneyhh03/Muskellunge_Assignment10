@@ -1,3 +1,16 @@
+
+# Name: Denise Huynh and Sidney Huschart
+# email:  huynhd2@mail.uc.edu and huschash@mail.uc.edu
+# Assignment Number: Assignment 10
+# Due Date:   11/14/2024
+# Course #/Section:   IS4010-001
+# Semester/Year:   Fall 2024
+# Brief Description of the assignment:  Execute API calls with collaboration from github
+
+# Brief Description of what this module does:   Entry point from the project
+# Citations:
+# Anything else that's relevant:
+
 # main.py
 from catAPIClientPackage.cat_api_client import CatAPIClient
 
